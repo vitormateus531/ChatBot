@@ -45,6 +45,9 @@
         h3{
             text-align:center;
         }
+        .ChatLog__avatar{
+            content:url({{url('logo.png')}})
+        }
     </style>
 </head>
 <body>
@@ -52,12 +55,12 @@
 <h3>Informando a quantidade de municípios e bairros de um estado</h3>
 <div class="container">
     <div class="content" id="app">
-        <botman-tinker api-endpoint="/botman"></botman-tinker>
+        <botman-tinker api-endpoint="{{url('/botman')}}"></botman-tinker>
         <p>Pressione "Enter" para enviar</p>
     </div>
     <br>
 </div>
 
-<script src="{{asset('js/app.js')}}"></script>
+<script src="{{asset('/js/app.js')}}"></script>
 </body>
 </html>
