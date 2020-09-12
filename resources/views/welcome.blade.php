@@ -66,7 +66,7 @@
         </div>
 
         <div class="links">
-            <a href="/botman/tinker">Entrar no Chat</a>
+            <a href="{{route('botman.tinker')}}">Entrar no Chat</a>
         </div>
     </div>
 </div>
