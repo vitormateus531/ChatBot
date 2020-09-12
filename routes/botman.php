@@ -2,7 +2,7 @@
 use App\Http\Controllers\BotManController;
 use BotMan\BotMan\Messages\Attachments\Image;
 
-$teste = 'Norte';
+
 $botman = resolve('botman');
 
 // SAUDAÇÃO AO ROBO
