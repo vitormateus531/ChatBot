@@ -56,6 +56,24 @@ $botman->hears('eae', function ($bot) {
     $bot->reply('qual estado é de seu interesse?');
 });
 
+$botman->hears('eaee', function ($bot) {
+    $bot->reply('Olá, me chamo Rob, e lhe darei informações sobre os estados do Brasil que voce pesquisar');
+    $bot->reply('Ah! e uma dica, voce pode digitar começando com "estado de/do/da" antes do nome do estado ou com o nome do estado e no final espaço e um ponto');
+    $bot->reply('qual estado é de seu interesse?');
+});
+
+$botman->hears('falaa', function ($bot) {
+    $bot->reply('Olá, me chamo Rob, e lhe darei informações sobre os estados do Brasil que voce pesquisar');
+    $bot->reply('Ah! e uma dica, voce pode digitar começando com "estado de/do/da" antes do nome do estado ou com o nome do estado e no final espaço e um ponto');
+    $bot->reply('qual estado é de seu interesse?');
+});
+
+$botman->hears('falee', function ($bot) {
+    $bot->reply('Olá, me chamo Rob, e lhe darei informações sobre os estados do Brasil que voce pesquisar');
+    $bot->reply('Ah! e uma dica, voce pode digitar começando com "estado de/do/da" antes do nome do estado ou com o nome do estado e no final espaço e um ponto');
+    $bot->reply('qual estado é de seu interesse?');
+});
+
 $botman->hears('Oi,me chamo {nome}', function ($bot,$nome) {
     $bot->reply('Olá '.$nome.', me chamo Rob, e lhe darei informações sobre os estados do Brasil que voce pesquisar');
     $bot->reply('Ah! e uma dica, voce pode digitar começando com "estado de/do/da" antes do nome do estado ou com o nome do estado e no final espaço e um ponto');
