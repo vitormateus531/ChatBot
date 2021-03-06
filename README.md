@@ -6,8 +6,9 @@
 Esta aplicação foi desenvolvida com o framework Botman e conjunto com o framework php laravel.
 
 ## Como utilizar
-
-
+    ```sh
+    git clone <repositorio remoto>
+    ```
 
 ## Support the development
 **Do you like this project? Support it by donating**
