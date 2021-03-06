@@ -6,9 +6,19 @@
 Esta aplicação foi desenvolvida com o framework Botman e conjunto com o framework php laravel.
 
 ## Como utilizar
+ - Baixa o conteúdo deste repositório com o comando:
 ```sh
     git clone <repositorio remoto>
 ```
+- Supondo que voce já tenha o `composer` devidamente instalado,dentro do projeto, execute o seguinte comando no terminal
+```sh
+    composer install
+```
+e para que o laravel possa gerar sua chave única do projeto execute o comando
+```sh
+    php artisan generate:key
+```
+- Após isso crie um banco de dados mysql e importe o arquivo `chatbot_setran.sql` localizado na raiz do repositório para banco criado.
 
 ## Support the development
 **Do you like this project? Support it by donating**
