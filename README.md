@@ -1,4 +1,4 @@
-<h1 align="center">BotMan Studio</h1>
+<h1 align="center">Chatbot que informa quantitativo de cidades e bairros conforme os estados do Brasil</h1>
 <p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
 ## About BotMan Studio
 
