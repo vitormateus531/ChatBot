@@ -39,5 +39,5 @@ e para que o laravel possa gerar sua chave única do projeto execute o comando
 
 ## Demo
 
-<a href="https://www.tagsolution.com.br/chatbot/public/">Veja aqui</a>
+<a href="https://www.tagsolution.com.br/chatbot/public/" target="__blank">Veja aqui</a>
 
