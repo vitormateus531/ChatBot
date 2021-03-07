@@ -18,9 +18,12 @@ e para que o laravel possa gerar sua chave única do projeto execute o comando
 ```sh
     php artisan generate:key
 ```
- - Localize o arquivo `.env.example` e renomeie para `.env` e abra o arquivo e encontre o bloco:
+ 
+- Crie um banco de dados mysql e importe o arquivo `chatbot_setran.sql` localizado na raiz do repositório para banco criado.
+
+ - Após a etapa anterior ser efetuada localize o arquivo `.env.example` e renomeie para `.env` abra o arquivo e encontre o bloco:
    
-   aqui voce colocará as credenciais do seu banco de dados
+  aqui voce colocará as credenciais do seu banco de dados
  ```sh
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -29,8 +32,10 @@ e para que o laravel possa gerar sua chave única do projeto execute o comando
     DB_USERNAME=homestead
     DB_PASSWORD=secret
 ```
- 
-- Após isso crie um banco de dados mysql e importe o arquivo `chatbot_setran.sql` localizado na raiz do repositório para banco criado.
+- Execute utilizando o comando:
+```sh
+   php artisan serve
+```
 
 ## Support the development
 **Do you like this project? Support it by donating**
