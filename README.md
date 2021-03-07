@@ -6,7 +6,7 @@
 Esta aplicação foi desenvolvida com o framework Botman e conjunto com o framework php laravel.
 
 ## Como utilizar
- - Baixa o conteúdo deste repositório com o comando:
+ - Baixe o conteúdo deste repositório com o comando:
 ```sh
     git clone <repositorio remoto>
 ```
@@ -18,6 +18,18 @@ e para que o laravel possa gerar sua chave única do projeto execute o comando
 ```sh
     php artisan generate:key
 ```
+ - Localize o arquivo `.env.example` e renomeie para `.env` e abra o arquivo e encontre o bloco:
+   
+   aqui voce colocará as credenciais do seu banco de dados
+ ```sh
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=homestead
+    DB_USERNAME=homestead
+    DB_PASSWORD=secret
+```
+ 
 - Após isso crie um banco de dados mysql e importe o arquivo `chatbot_setran.sql` localizado na raiz do repositório para banco criado.
 
 ## Support the development
