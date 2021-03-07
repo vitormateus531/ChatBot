@@ -1,17 +1,17 @@
 <h1 align="center">Chatbot que informa quantitativo de cidades e bairros conforme os estados do Brasil</h1>
 <p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
 
-## Sobre a aplicação
+### Pré-requisitos
 
 - Php 7.2 ou superior
 - mysql instalado
 - composer
 
-## Sobre a aplicação
+### Sobre a aplicação
 
 Esta aplicação foi desenvolvida com o framework Botman e conjunto com o framework php laravel.
 
-## Como utilizar
+### Como utilizar
  - Baixe o conteúdo deste repositório com o comando:
 ```sh
     git clone <repositorio remoto>
