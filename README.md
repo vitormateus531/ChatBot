@@ -3,6 +3,12 @@
 
 ## Sobre a aplicação
 
+- Php 7.2 ou superior
+- mysql instalado
+- composer
+
+## Sobre a aplicação
+
 Esta aplicação foi desenvolvida com o framework Botman e conjunto com o framework php laravel.
 
 ## Como utilizar
